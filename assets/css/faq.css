@@ -1,0 +1,34 @@
+.box.alt.faq {
+	width: 75%;
+	margin:auto;
+	margin-bottom: 30px;
+}
+
+.faq li { 
+	padding: 10px; 
+	list-style-type: none;
+	cursor: pointer;
+}
+
+.faq li.q {
+	border-bottom: 1px #ddd solid;
+	text-align: left;
+}
+
+.faq li.a {
+	background: #002647;
+	display: none;
+	color:#fff;
+	padding: 25px;
+}
+
+.rotate {
+	-moz-transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);
+	transform: rotate(270deg);
+}
+
+.fa.fa-arrow-down.faq {
+	float: left;
+	padding-top: 6px;
+}
